@@ -1,0 +1,346 @@
+/*Colors and Font*/
+
+body{
+ 	background: white;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 130%;
+	color: black;
+}
+
+.btn-logo{
+	position: absolute;
+	width: 280px;
+	height: 174px;
+	left: 177px;
+	top: -18px;
+}
+
+.menu{
+	color: black;
+	list-style: none;
+}
+
+.menu li{
+	display: inline;
+	padding:  15px;
+	position: absolute;
+}
+
+.btn-co-working{
+	position: absolute;
+	width: 176px;
+	height: 49px;
+	left: 779px;
+	top: 53px;
+	text-decoration-line: none;
+	text-align: center;
+	text-decoration-color: white;
+	background: #DBC096;
+}
+
+.btn-offers{
+	position: absolute;
+	width: 56px;
+	height: 9px;
+	left: 980px;
+	top: 68px;
+	font-size: 18px;
+	text-align: right;
+	text-decoration-line: none;
+	color: #000000;
+}
+
+.btn-ourstory{
+	position: absolute;
+	width: 86px;
+	height: 9px;
+	left: 1061px;
+	top: 67px;
+	font-size: 18px;
+	text-align: right;
+	text-decoration-line: none;
+	color: #000000;
+}
+
+.btn-contact{
+	position: absolute;
+	width: 84px;
+	height: 9px;
+	left: 1157px;
+	top: 67px;
+	font-size: 18px;
+	text-align: right;
+	text-decoration-line: none;
+	color: #000000;
+}
+
+
+h1{/* OUR OFFERS */
+	position: absolute;
+	width: 232px;
+	height: 82px;
+	left: 604px;
+	top: 150px;
+	font-size: 34px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+h2{ /*Activities and Extras*/
+	position: absolute;
+	width: 206px;
+	height: 39px;
+	left: 885px;
+	top: 340px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF
+}
+
+.img-activities{ /*Activities*/
+	position: absolute;
+	width: 293px;
+	height: 235px;
+	left: 620px;
+	top: 330px;
+}
+
+.img-extras{ /*Extras*/
+	position: absolute;
+	width: 258px;
+	height: 187px;
+	left: 888px;
+	top: 390px;
+}
+
+.actandext{ /*Description Activities and Extras*/
+	position: absolute;
+	width: 376px;
+	height: 131px;
+	left: 793px;
+	top: 330px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF
+}
+
+
+h3{ /*Double Room*/
+	position: absolute;
+	width: 138px;
+	height: 29px;
+	left: 420px;
+	top: 560px;
+	font-size: 16px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.img-double{
+	position: absolute;
+	width: 391px;
+	height: 353px;
+	left: 258px;
+	top: 315px;
+}
+
+.Double{
+	position: absolute;
+	width: 303px;
+	height: 131px;
+	left: 334px;
+	top: 550px;
+	font-weight: 600;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	z-index: 1;
+	color: #FFFFFF;
+}
+
+h4{ /*Simple Room*/
+	position: absolute;
+	width: 145px;
+	height: 29px;
+	left: 325px;
+	top: 820px;
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.img-simple{
+	position: absolute;
+	width: 366px;
+	height: 296px;
+	left: 199px;
+	top: 629px;
+}
+
+.Simple{
+	position: absolute;
+	width: 338px;
+	height: 90px;
+	left: 220px;
+	top: 830px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+h5{ /*Luxury Room*/
+	position: absolute;
+	width: 130px;
+	height: 24px;
+	left: 688px;
+	top: 775px;
+	font-size: 16px;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.img-luxury{
+	position: absolute;
+	width: 456px;
+	height: 319px;
+	left: 565px;
+	top: 565px;
+}
+
+.luxury{
+	position: absolute;
+	width: 364px;
+	height: 82px;
+	left: 564px;
+	top: 795px;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+h6{ /*Restaurants*/
+	position: absolute;
+	width: 126px;
+	height: 29px;
+	left: 1045px;
+	top: 725px;
+	font-size: 16px;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.img-restaurants{ /*Restaurants*/
+	position: absolute;
+	width: 232px;
+	height: 197px;
+	left: 994px;
+	top: 565px;
+}
+
+.Restaurants{
+	position: absolute;
+	width: 273px;
+	height: 165px;
+	left: 968px;
+	top: 725px;
+	line-height: 130%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+h7{ /*Serenity Boutique Hotel*/
+	position: absolute;
+	width: 169px;
+	height: 12px;
+	left: 355px;
+	top: 980px;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF
+}
+
+.serenity{
+	position: absolute;
+	width: 84px;
+	height: 73px;
+	left: 359px;
+	top: 1002px;
+	font-size: 12px;
+	text-align: center;
+	list-style: none;
+	color: #FFFFFF;
+}
+
+h8{ /*Regulations*/
+	position: absolute;
+	width: 104px;
+	height: 21px;
+	left: 720px;
+	top: 975px;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.regulations{
+	position: absolute;
+	width: 135px;
+	height: 63px;
+	left: 652px;
+	top: 1002px;
+	font-size: 12px;
+	list-style: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+h9{ /*Social Media*/
+	position: absolute;
+	width: 101px;
+	height: 16px;
+	left: 1035px;
+	top: 978px;
+	font-size: 12px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.socialmedia{
+	position: absolute;
+	width: 95px;
+	height: 53px;
+	left: 1000px;
+	top: 1005px;
+	font-size: 12px;
+	text-align: center;
+	list-style: none;
+	color: #FFFFFF;
+}
